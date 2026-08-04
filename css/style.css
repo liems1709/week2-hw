@@ -29,6 +29,32 @@ h1{
     font-family:Georgia, serif;
     color:darkblue;
 }
+nav{
+    display:inline-block;
+    width:80%;
+}
+
+nav img{
+    width:10%;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:40% 40%;
+    justify-content:center;
+    align-items:center;
+    row-gap:20px;
+}
+
+.grid img{
+    width:100%;
+}
+
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
 
 p{
     line-height:1.6;
